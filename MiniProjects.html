@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mini Projects</title>
+    <script src="My%20promtional%20Website%202-2/miniProjects.js"></script>
+    <link rel="stylesheet" href="My%20promtional%20Website%202-2/mini.css">
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+    <a href="index.html">Home</a>
+    <a href="My%20promtional%20Website%202-2/Family.html">Family</a>
+    <a href="My%20promtional%20Website%202-2/Hobbies.html">Hobbies</a>
+    <a href="My%20promtional%20Website%202-2/Sports.html">Sports</a>
+    <a href="MiniProjects.html">Mini Projects</a>
+    <br><br>
+</div>
+
+<h1>Mini Projects</h1>
+<form name="weather">
+    <img id="weather" src="" height="75">
+    <img src="My%20promtional%20Website%202-2/img/summer.jpg" height="189" width="285"/>
+    <img src="My%20promtional%20Website%202-2/img/spring.jpg" height="189" width="285"/>
+    <img src="My%20promtional%20Website%202-2/img/fall.jpg" height="189" width="285"/>
+    <img src="My%20promtional%20Website%202-2/img/winter.jpg" height="189" width="285"/>
+    <!-- further organize content with regard to javascript by creating 'forms' on a HTML doc-->
+    <form name="conditional">
+    <h4>Results for conditional statements</h4>
+    <br>
+    Please type in a temperature : <input type="text" name="temp1">
+    <br><br>
+    <button type="button" onclick="document.weather.results.value=temperatureBug()">TEMPERATURE!</button>
+    <br><br>
+        <button type="button" onclick="temperatureBug()">PICTURE</button>
+    Results: <input type="text" name="results" readonly="true" style="border-style: none;">
+    <br><br><br>
+</form>
+</form>
+    <form name="grade">
+        <h5>Grading Converter</h5>
+        <br><br>
+        Please type a numeric score to convert: <input type="text" name="num1">
+        <br>
+        <button type="button" onclick="document.grade.results.value=assignGrade()">CONVERT!!</button>
+        <br><br>
+        <input type="text" readonly="true" name="results" style="border-style: none">
+    </form>
+    <br><br><br>
+
+    <form name="calorie">
+        <select id="activities">
+            <option value="Bowling">Bowling</option>
+            <option value="Soccer">Soccer</option>
+            <option value="Tennis">Tennis</option>
+        </select>
+        <br><br>
+        Please type in the amount of minutes for the calories burned from your activities: <input type="text" name="cal1">
+        <br><br>
+        <button type="button" onclick="document.calorie.results.value=calorieCounter()">CALORIES!!</button>
+        <br><br>
+        <input id="results" readonly="true">
+
+
+
+
+
+</form>
+</body>
+</html>
