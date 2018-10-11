@@ -84,30 +84,20 @@ function calorieCounter()
 
 
     //return calorie
-    if (cal1 == "Bowling") && (time == 60)
+    if (cal1 == "Bowling") 
     {
         return "120 calories";
     }
-    if (cal1 == "Bowling") && (time == 30)
-    {
-        return "60 calories";
-    }    
-    else if(cal1 == "Soccer") && (time == 60)
+        
+    else if(cal1 == "Soccer")
     {
         return "350 calories";
     }
-    if (cal1 == "Soccer") && (time == 30)
-    {
-        return "175 calories";
-    }
-    else if(cal1 == "Tennis") && (time == 60)
+    
+    else if(cal1 == "Tennis") 
     {
         return "300 calories";
-    }
-    if(cal1 == "Tennis") && (time == 30)
-    {
-        return "150 calories";
-    }
+    
    
 }
 
