@@ -74,6 +74,26 @@ function assignGrade()
     {
         return 'F';
     }
+     else if (score >= 40)
+    {
+        return 'F';
+    }
+     else if (score >= 30)
+    {
+        return 'F';
+    }
+     else if (score >= 20)
+    {
+        return 'F';
+    }
+     else if (score >= 10)
+    {
+        return 'F';
+    }
+     else if (score >= 0)
+    {
+        return 'F';
+    }
 
 
 }
