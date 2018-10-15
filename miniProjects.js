@@ -20,7 +20,7 @@ function temperatureBug()
     {
         return 'summer';
     }
-    else if (temp >= 80)
+    and (temp >= 80)
     {
         return document.getElementById('weather').src="img/summer.jpg";
     }
@@ -28,7 +28,7 @@ function temperatureBug()
     {
         return 'spring';
     }
-    else if (temp >= 70)
+    and (temp >= 70)
     {
         return document.getElementById('weather').src="img/spring.jpg";
     }
@@ -36,7 +36,7 @@ function temperatureBug()
     {
         return 'fall';
     }
-    else if (temp >= 60)
+    and (temp >= 60)
     {
         return document.getElementById('weather').src="img/fall.jpg";
     }
@@ -44,7 +44,7 @@ function temperatureBug()
     {
         return 'winter' ;
     }
-    else if (temp >= 50)
+    and (temp >= 50)
     {
         return document.getElementById('weather').src="img/winter.jpg";
     }
@@ -52,7 +52,7 @@ function temperatureBug()
     {
         return 'winter';
     }
-    else if (temp >= -100)
+    and (temp >= -100)
     {
         return document.getElementById('weather').src="img/winter.jpg";
     }
