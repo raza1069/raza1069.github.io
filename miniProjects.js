@@ -22,7 +22,7 @@ function temperatureBug()
     }
     else if (temp >= 80)
     {
-        return 'document.getElementById('weather').src="img/summer.jpg"';
+        return document.getElementById('weather').src="img/summer.jpg";
     }
     else if (temp >= 70)
     {
@@ -30,7 +30,7 @@ function temperatureBug()
     }
     else if (temp >= 70)
     {
-        return 'document.getElementById('weather').src="img/spring.jpg"';
+        return document.getElementById('weather').src="img/spring.jpg";
     }
     else if (temp >= 60)
     {
@@ -38,7 +38,7 @@ function temperatureBug()
     }
     else if (temp >= 60)
     {
-        return 'document.getElementById('weather').src="img/fall.jpg"';
+        return document.getElementById('weather').src="img/fall.jpg";
     }
     else if (temp >= 50)
     {
@@ -46,7 +46,7 @@ function temperatureBug()
     }
     else if (temp >= 50)
     {
-        return 'document.getElementById('weather').src="img/winter.jpg"';
+        return document.getElementById('weather').src="img/winter.jpg";
     }
     else if (temp >= -100)
     {
@@ -54,7 +54,7 @@ function temperatureBug()
     }
     else if (temp >= -100)
     {
-        return 'document.getElementById('weather').src="img/winter.jpg"';
+        return document.getElementById('weather').src="img/winter.jpg";
     }
 
 }
