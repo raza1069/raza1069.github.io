@@ -14,8 +14,11 @@ function tenToSmall(num, base) // this function will convert a base 10 function 
         alert (smallNum)
     }
 
-
-    return smallNum;
+    {
+        return smallNum;
+    }   
+ 
+    
 }
 
 function smallToTen(num, base) // convert a small-base number to base-10
