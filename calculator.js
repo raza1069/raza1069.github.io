@@ -56,9 +56,9 @@ function calculate(expression)
     }
 
 
-    var firstNum = Number(expression.substr(0, 2));
-    var operator = expression.substr(2, 1); // capture the '+'
-    var secondNum = Number(expression.substr(3, 2));
+    var firstNum = Number(expression.substr(0, 1));
+    var operator = expression.substr(1, 1); // capture the '+'
+    var secondNum = Number(expression.substr(2, 2));
 
 
 
