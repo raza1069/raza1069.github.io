@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Base Converter</title>
+    <link rel="stylesheet" href="binary.css">
+    <script src="binary.js"></script>
+</head>
+<body>
+<div class="topnav" id="myTopnav">
+    <a href="index.html">Home</a>
+    <a href="Family.html">Family</a>
+    <a href="Hobbies.html">Hobbies</a>
+    <a href="Sports.html">Sports</a>
+    <a href="MiniProjects.html">Mini Projects</a>
+    <a href="calculator.html">Calculator</a>
+    <a href="binary.html">Base Converter</a>
+
+</div>
+<form name="baseConverters">
+
+    <h4>Binary Base Converters Project</h4>
+    Your number: <input name="num1" type="text">
+    <br><br>
+    Current base: <input name="base1" type="text">
+    <br><br>
+    choose which base you want to change it to: <input name="base2" type="text">
+
+    <button type="button" onclick="document.baseConverters.result.value=combo(Number(document.baseConverters.num1.value), Number(document.baseConverters.base1.value), Number(document.baseConverters.base2.value))">Click</button>
+    <br><br>
+    New base number: <input name="result" type="text" readonly="true" style="border-style: none">
+</form>
+</body>
+</html>
