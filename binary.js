@@ -38,18 +38,7 @@ function calculate(expression)
         var operator = expression.substr(2, 1); //capture the '+'
         var secondNum = Number(expression.substr(3, 2));
     }
-
-
-
-
-
-
-
-
-
-
-
-
+    
 
     if(operator === '+')//that means i add firstNum and secondNum
     {
