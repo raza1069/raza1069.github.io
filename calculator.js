@@ -39,18 +39,6 @@ function calculate(expression)
         var secondNum = Number(expression.substr(3, 2));
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
     if(operator === '+')//that means i add firstNum and secondNum
     {
         return addNums(firstNum, secondNum); //returns the result of calling 'addnums'
@@ -75,8 +63,6 @@ function calculate(expression)
     }
 
 }
-
-
 
 function addNums(p1,p2)
 {
