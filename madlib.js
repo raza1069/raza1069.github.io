@@ -23,12 +23,5 @@ function madlib()
     x.push(number10);
 
 
-    return x[0].bold() + " " + "was" + " " + x[1].bold() + " " + "by the old ladys yard. Then her pet" + " " + x[2].bold() + 
-        " " + "came viciously at him for" +" " + x[1].bold() + " " 
-        "by her yard. The only thing you could do is use the power of" +" " + x[3].bold() +
-            " " + "to get rid of the old ladys pet.But that did not work instead" +
-            " " +  he + " " +
-        "kept running until he reached" + " " + x[4].bold() + " " +". At" +" " + x[4].bold() + " " + x[5].bold() + " " + "was wearing a" +" " + x[6].bold() + " " + "costume,and he was selling" +" " + x[7].bold() + " " +
-        ". So + " " + x[0].bold() + " " was so hungry he picked up a" + x[8].bold()
-         "and hit the guy" + " " + x[9].bold() +" " + "times and stole" + " " + x[9].bold() + " " + x[7].bold() + ".";
+    return x[0].bold() + " " + "was" + " " + x[1].bold() + " " + "by the old ladys yard. Then her pet" + " " + x[2].bold() +  " " + "came viciously at him for" +" " + x[1].bold() + " " + "by her yard. The only thing you could do is use the power of" +" " + x[3].bold() +  " " + "to get rid of the old ladys pet. But that did not work instead he kept running until he reached" + " " + x[4].bold() + " " + ". At" +" " + x[4].bold() + " " + x[5].bold() + " " + "was wearing a" +" " + x[6].bold() + " " + "costume,and he was selling" +" " + x[7].bold() + " " +". So" + " " + x[0].bold()  + " " + "was so hungry he picked up a" + " " + x[8].bold() + " " +  "and hit the guy" + " " + x[9].bold() +" " + "times and stole" + " " + x[9].bold() + " " + x[7].bold() + ".";
 }
