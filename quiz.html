@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FUN QUIZ!!</title>
+    <script src="quiz.js"></script>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+<div class="topnav" id="myTopnav">
+    <a href="index.html">Home</a>
+    <a href="Family.html">Family</a>
+    <a href="Hobbies.html">Hobbies</a>
+    <a href="Sports.html">Sports</a>
+        <div class="dropdown">
+            <button class="dropbtn">Projects
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="MiniProjects.html">Mini Projects</a>
+                <a href="binary.html">Binary Coverter</a>
+                <a href="calculator.html">Calculator</a>
+                <a href="madib.html">Madlibs</a>
+                <a href="quiz.html">QUIZ!</a>
+            </div>
+        </div>
+</div>
+
+
+<form name="quiz">
+    <h1>RANDOM QUIZ!!</h1>
+
+    <img src="img/fortnite.jpg" height="221" width="400"/><br><br><br>
+
+    Question 1 : what is the name of this game?<br>
+    <input type="text" name="a1">
+    <br><br>
+
+    <br><br>
+    <img src="img/brazil.jpg" height="300" width="500"/><br>
+    Question 2: Which country is the given picture at?
+    <br>
+    <input type="radio" name="a2" value="Brazil">Brazil<br>
+    <input type="radio" name="a2" value="England">England<br>
+    <input type="radio" name="a2" value="Spain">Spain<br>
+    <input type="radio" name="a2" value="China">China<br>
+    <br><br><br>
+    Question 3 Which of the following are the largest animals in the world?<br>
+    <input type="checkbox" name="a3A" value="BlueWhale">Blue Whale<br>
+    <input type="checkbox" name="a3B" value="Godzilla">Godzilla<br>
+    <input type="checkbox" name="a3C" value="King Kong">King Kong<br>
+    <input type="checkbox" name="a3D" value="Dog">Dog<br>
+    <input type="checkbox" name="a3E" value="LochnessMonster">Lochness Monster<br>
+    <br><br><br>
+    Question 4 : Spell our school name mirrored?<br>
+    <input type="text" name="a4">
+    <br><br><br>
+
+    Question 5: Who is the current CEO of Apple?
+    <br>
+    <input type="radio" name="a5" value="bill gates">Bill Gates<br>
+    <input type="radio" name="a5" value="Tim Cook">Tim Cook<br>
+    <input type="radio" name="a5" value="steve jobs">Steve Jobs<br>
+    <input type="radio" name="a5" value="Tim Coook">Tim Coook<br>
+
+    <br><br><br>
+    Question 6 who were the nominees for the FIFA Ballon d'or: <br>
+    <input type="checkbox" name="a6A" value="Luka modric">Luka modric<br>
+    <input type="checkbox" name="a6B" value="LEBRON JAMES">LEBRON JAMES<br>
+    <input type="checkbox" name="a6C" value="Leonil Messi">Leonil Messi<br>
+    <input type="checkbox" name="a6D" value="Muhammed Raza">Muhammed Raza<br>
+    <input type="checkbox" name="a6E" value="Christiano Ronaldo">Christiano Ronaldo<br>
+
+
+
+
+    <button type="button" onclick="checkAnswers()">CHECK ANSWERS</button>
+
+
+
+
+</form>
+</body>
+</html>
