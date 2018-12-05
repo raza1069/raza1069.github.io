@@ -17,7 +17,7 @@ function checkAnswers()
     }
 
 
-    if (document.quiz.a2.value ='Brazil')
+    if (document.quiz.a2.value === 'Brazil')
     {
         score++;
         feedback.push("Question 2 is corrrrrrect!!");
@@ -53,7 +53,7 @@ function checkAnswers()
         feedback.push("WRONG Question 4 was loohcs hgih setatse namffoh");
     }
 
-    if (document.quiz.a5.value ='Tim Cook')
+    if (document.quiz.a5.value === 'Tim Cook')
     {
         score++;
         feedback.push("Question 5 is corrrrrrect!!");
@@ -76,12 +76,12 @@ function checkAnswers()
     }
     else
     {
-        feedback.push("Wrong, question 3 is Godzilla, King Kong, and Lochness monster");
+        feedback.push("Wrong, question 6 is Modric, messi and ronaldo");
     }
 
 
 
 
-
+    return feedback + "Your score was " + score;
 
 }
