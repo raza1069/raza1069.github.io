@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>FUN QUIZ!!</title>
-    <script src="quiz.js"></script>
+    <script src="myscript.js"></script>
     <link rel="stylesheet" href="quiz.css">
 </head>
 <body>
@@ -12,18 +12,18 @@
     <a href="Family.html">Family</a>
     <a href="Hobbies.html">Hobbies</a>
     <a href="Sports.html">Sports</a>
-        <div class="dropdown">
-            <button class="dropbtn">Projects
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-                <a href="MiniProjects.html">Mini Projects</a>
-                <a href="binary.html">Binary Coverter</a>
-                <a href="calculator.html">Calculator</a>
-                <a href="madib.html">Madlibs</a>
-                <a href="quiz.html">QUIZ!</a>
-            </div>
+    <div class="dropdown">
+        <button class="dropbtn">Projects
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="MiniProjects.html">Mini Projects</a>
+            <a href="binary.html">Binary Coverter</a>
+            <a href="calculator.html">Calculator</a>
+            <a href="madib.html">Madlibs</a>
+            <a href="quiz.html">QUIZ!</a>
         </div>
+    </div>
 </div>
 
 
@@ -70,14 +70,15 @@
     <input type="checkbox" name="a6C" value="Leonil Messi">Leonil Messi<br>
     <input type="checkbox" name="a6D" value="Muhammed Raza">Muhammed Raza<br>
     <input type="checkbox" name="a6E" value="Christiano Ronaldo">Christiano Ronaldo<br>
+    <br><br>
 
 
 
 
-    <button type="button" onclick="checkAnswers()">CHECK ANSWERS</button>
 
-
-
+    <button type="button" onclick="document.getElementById('answers').innerHTML=checkAnswers()">CHECK ANSWERS</button>
+    <br><br><br>
+    <p id="answers"></p>
 
 </form>
 </body>
