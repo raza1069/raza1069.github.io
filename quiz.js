@@ -76,12 +76,15 @@ function checkAnswers()
     }
     else
     {
-        feedback.push("Wrong, question 6 is Modric, messi and ronaldo");
+        feedback.push("Wrong, question 3 is Godzilla, King Kong, and Lochness monster");
     }
 
 
+    return feedback + "your score was" + score;
 
 
-    return feedback + "Your score was " + score;
+
+
+
 
 }
